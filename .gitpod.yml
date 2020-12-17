@@ -1,0 +1,4 @@
+image: gitpod/workspace-dotnet:branch-sr229-master
+
+tasks:
+  - command: dotnet fsi build.fsx test
